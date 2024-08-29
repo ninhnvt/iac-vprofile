@@ -22,7 +22,7 @@ jobs:
   terraform:
     name: "Apply Terraform Code Changes"
     runs-on: ubuntu-latest
-    default:
+    defaults:
       run:
         shell: bash
         working-directory: ./terraform
