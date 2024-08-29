@@ -22,6 +22,10 @@ jobs:
   terraform:
     name: "Apply Terraform Code Changes"
     runs-on: ubuntu-latest
+    default:
+      run:
+        shell: bash
+        working-directory: ./terraform
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
