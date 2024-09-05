@@ -9,10 +9,3 @@ variable "clusterName" {
   type        = string
   default     = "vprofile-eks"
 }
-<<<<<<< HEAD
-
-#add comment to trigger action
-=======
-#
-
->>>>>>> stage
